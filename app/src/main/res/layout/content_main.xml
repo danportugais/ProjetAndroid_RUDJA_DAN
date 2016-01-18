@@ -12,8 +12,20 @@
     tools:context="com.example.dan.projetandroid_rudja_dan.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+
+        <item
+            android:id="@+id/action_shuffle"
+            android:icon="@drawable/rand"
+            android:orderInCategory="1"
+            android:showAsAction="always"
+            android:title="Shuffle"/>
+
+        <item
+            android:id="@+id/action_end"
+            android:icon="@drawable/end"
+            android:orderInCategory="2"
+            android:showAsAction="always"
+            android:title="End"/>
+
+
 </RelativeLayout>
