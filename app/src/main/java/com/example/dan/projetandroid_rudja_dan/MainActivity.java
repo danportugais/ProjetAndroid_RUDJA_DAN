@@ -1,6 +1,8 @@
 package com.example.dan.projetandroid_rudja_dan;
 
 import android.content.ContentResolver;
+import android.database.Cursor;
+import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.design.widget.FloatingActionButton;
